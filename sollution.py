@@ -1,7 +1,7 @@
-EPS = 2 * 10 ** (-16)
+EPS = 2 * 10 ** (-16) 
 
 
-def sollution1(b, c):
+def sollution1(b, c): #Wieth theorem
     D = b ** 2 - 4 * c
     if b > 0:
         x1 = (-b - D ** 0.5) / 2
@@ -13,7 +13,7 @@ def sollution1(b, c):
         x1, x2 = c ** 0.5, c ** 0.5
     return x1, x2
 
-def sollution2(b, c):
+def sollution2(b, c): #Taylor series
     if b:
         if (4 * c / b ** 2) ** 4 / 32 < EPS:
             x1 =  - c / b - (4 * c / b ** 2) ** 2 / 16 * b - (4 * c / b ** 2) ** 3 / 32 * b
