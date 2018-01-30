@@ -26,8 +26,8 @@ def sollution2(b, c): #Taylor series
         x1, x2 = c ** 0.5, c ** 0.5        
     return x1, x2
 
-b = 10 ** -20  #4.0 2.0 0.5 10 ** 20 -10 ** 20
-c = 4 #3.0 1.0 4.0 3 4
+b = 4.0 #2.0 0.5 10 ** 20 -10 ** 20
+c = 3.0 #1.0 4.0 3 4
 
 #b, c = map(float, input().split())
 
